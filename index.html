@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI Resources</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <style>
+        /* Ensure responsiveness for all screen sizes */
+        @media (max-width: 768px) {
+            #sidebar {
+                background: #f8f9fa;
+                padding: 15px;
+                border-left: 2px solid #ddd;
+                box-shadow: -2px 2px 5px rgba(0,0,0,0.1);
+            }
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .rounded-circle {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        
+        .card {
+            text-align: center;
+            padding: 15px;
+        }
+        
+        .nav-tabs .nav-item {
+            flex: 1;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">HCI Resources</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Info Tech</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Interests</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Accessibility</a>
+                    <a class="dropdown-item" href="#">Eye Tracking for UX</a>
+                    <a class="dropdown-item" href="#">AI for HCI</a>
+                    <a class="dropdown-item" href="#">Phygital HCI</a>
+                    <a class="dropdown-item" href="#">HCI & Ethics</a>
+                    <a class="dropdown-item" href="#">Non-Tech HCI</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <!-- Row 1: Full-width Slideshow -->
+    <div class="row">
+        <div class="col-12">
+            <div id="slideshow" class="carousel slide mt-4" >
+                <ul class="carousel-indicators">
+                    <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideshow" data-slide-to="1"></li>
+                    <li data-target="#slideshow" data-slide-to="2"></li>
+                    <li data-target="#slideshow" data-slide-to="3"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><img src="image1.jpg" alt="New York Meetup"></div>
+                    <div class="carousel-item"><img src="image2.jpeg" alt="SF Meetup"></div>
+                    <div class="carousel-item"><img src="image3.jpg" alt="Austin Meetup"></div>
+                    <div class="carousel-item"><img src="image4.jpeg" alt="Chicago Meetup"></div>
+                </div>
+                <a class="carousel-control-prev" href="#slideshow" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                <a class="carousel-control-next" href="#slideshow" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
