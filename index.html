@@ -91,8 +91,163 @@
                 <a class="carousel-control-next" href="#slideshow" data-slide="next"><span class="carousel-control-next-icon"></span></a>
             </div>
         </div>
+    
+    <!-- Row 2: Main Content & Sidebar -->
+    <div class="row">
+        <div class="col-xl-10 col-lg-9 col-md-8 col-sm-12">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <h3>People in HCI to Follow</h3>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ap1">AP 1</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ap2">AP 2</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#ap3">AP 3</a></li>
+                    </ul>
+                    
+                    <div class="tab-content mt-2">
+                        <div id="ap1" class="tab-pane fade show active">
+                            <p>Notable HCI researcher 1 and a brief overview of their work.</p>
+                        </div>
+                        <div id="ap2" class="tab-pane fade">
+                            <p>Notable HCI researcher 2 and a brief overview of their work.</p>
+                            <table class="table table-bordered mt-2">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Institution</th>
+                                        <th>Contribution</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Researcher A</td>
+                                        <td>Institution A</td>
+                                        <td>Notable Contribution A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Researcher B</td>
+                                        <td>Institution B</td>
+                                        <td>Notable Contribution B</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Researcher C</td>
+                                        <td>Institution C</td>
+                                        <td>Notable Contribution C</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="ap3" class="tab-pane fade">
+                            <p>Notable HCI researcher 3 and a brief overview of their work.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <p>Famous academia researchers, their institutions, and their contribution to science.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12" id="sidebar">
+            <h4>🔥 Hottest HCI Research Topics</h4>
+            <ul>
+                <li>AI in UX Design</li>
+                <li>Phygital HCI</li>
+                <li>Neuroscience & HCI</li>
+                <li>Accessibility Innovations</li>
+                <li>Ethics in AI & HCI</li>
+                <li>Voice Interfaces & Chatbots</li>
+            </ul>
+        </div>
     </div>
+
+    <!-- Row 3: Cards with Circular Images -->
+    <div class="row text-center mt-4">
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch flex-column">
+            <div class="card h-100">
+                <a href="#captionPhygital" data-toggle="collapse">
+                    <img src="phygital_hci.jpeg" class="card-img-top rounded-circle mx-auto d-block" style="width: 100px; height: 100px;">
+                </a>
+                <div class="card-body">
+                    <a href="#captionPhygital" data-toggle="collapse" class="card-text">Phygital HCI</a>
+                    <div id="captionPhygital" class="collapse"><small class="text-muted" style="list-style-type: none;">Bridging digital and physical interactions</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+            <div class="card h-100">
+                <a href="#captionEthics" data-toggle="collapse">
+                    <img src="hci and ethics.jpeg" class="card-img-top rounded-circle mx-auto d-block" style="width: 100px; height: 100px;">
+                </a>
+                <div class="card-body">
+                    <a href="#captionEthics" data-toggle="collapse" class="card-text">HCI and Ethics</a>
+                    <div id="captionEthics" class="collapse"><small class="text-muted">Examining moral implications in HCI</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+            <div class="card h-100">
+                <a href="#captionNonTech" data-toggle="collapse">
+                    <img src="non tech hci.jpeg" class="card-img-top rounded-circle mx-auto d-block" style="width: 100px; height: 100px;">
+                </a>
+                <div class="card-body">
+                    <a href="#captionNonTech" data-toggle="collapse" class="card-text">Non-Tech HCI</a>
+                    <div id="captionNonTech" class="collapse"><small class="text-muted">HCI applications outside digital domains</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+            <div class="card h-100">
+                <a href="#captionAccessibility" data-toggle="collapse">
+                    <img src="accessibility.jpeg" class="card-img-top rounded-circle mx-auto d-block" style="width: 100px; height: 100px;">
+                </a>
+                <div class="card-body">
+                    <a href="#captionAccessibility" data-toggle="collapse" class="card-text">Accessibility</a>
+                    <div id="captionAccessibility" class="collapse"><small class="text-muted">Enhancing usability for all users</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+            <div class="card h-100">
+                <a href="#captionEyeTracking" data-toggle="collapse">
+                    <img src="eye tracking.jpeg" class="card-img-top rounded-circle mx-auto d-block" style="width: 100px; height: 100px;">
+                </a>
+                <div class="card-body">
+                    <a href="#captionEyeTracking" data-toggle="collapse" class="card-text">Eye Tracking</a>
+                    <div id="captionEyeTracking" class="collapse"><small class="text-muted">Studying user attention and interaction</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+            <div class="card h-100">
+                <a href="#captionAIHCI" data-toggle="collapse">
+                    <img src="ai for hci.jpeg" class="card-img-top rounded-circle mx-auto d-block" style="width: 100px; height: 100px;">
+                </a>
+                <div class="card-body">
+                    <a href="#captionAIHCI" data-toggle="collapse" class="card-text">AI for HCI</a>
+                    <div id="captionAIHCI" class="collapse"><small class="text-muted">Integrating artificial intelligence into UX</small></div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Collapsible Content Sections -->
+    
+            </div>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+        </div>
+    </div>
+
 </div>
 
 </body>
+</html>
+</html>
 </html>
